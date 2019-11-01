@@ -8,26 +8,26 @@ from tkinter import filedialog, messagebox
 import os
 import time
 import math
-#import numpy as np
-#from matplotlib import pyplot as plt
-#from mpl_toolkits.mplot3d import Axes3D
-#import pandas as pd
-#from IPython.display import display
-#from sklearn.model_selection import train_test_split
-#from sklearn.neighbors import KNeighborsClassifier
-#from sklearn.tree import DecisionTreeClassifier
-#from sklearn.ensemble import (RandomForestClassifier, ExtraTreesClassifier,
-#                              AdaBoostClassifier, GradientBoostingClassifier)
-#from sklearn import svm, linear_model
-#from sklearn.metrics import precision_recall_curve, average_precision_score, roc_curve, roc_auc_score
-#from collections import Counter
-#from sklearn.preprocessing import StandardScaler, RobustScaler
-#from sklearn.decomposition import PCA
-#from sklearn.model_selection import cross_validate, KFold
+import numpy as np
+from matplotlib import pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
+import pandas as pd
+from IPython.display import display
+from sklearn.model_selection import train_test_split
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import (RandomForestClassifier, ExtraTreesClassifier,
+                              AdaBoostClassifier, GradientBoostingClassifier)
+from sklearn import svm, linear_model
+from sklearn.metrics import precision_recall_curve, average_precision_score, roc_curve, roc_auc_score
+from collections import Counter
+from sklearn.preprocessing import StandardScaler, RobustScaler
+from sklearn.decomposition import PCA
+from sklearn.model_selection import cross_validate, KFold
 
 # load sample data sets (in this case, a csv file) from scikit-learn
-#from sklearn import datasets
-#bcancer = datasets.load_breast_cancer()
+from sklearn import datasets
+bcancer = datasets.load_breast_cancer()
 print("Module ready!!!")
 
 
